@@ -2266,7 +2266,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: cd7c7f5d247efd14e8037c491b85834b, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -4248,8 +4248,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7722355212616443671, guid: bd09310c008906b48bd0983f6c7f44e2,
         type: 3}
+      propertyPath: ballSounds.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7722355212616443671, guid: bd09310c008906b48bd0983f6c7f44e2,
+        type: 3}
       propertyPath: paddle1
       value: 
       objectReference: {fileID: 903282944}
+    - target: {fileID: 7722355212616443671, guid: bd09310c008906b48bd0983f6c7f44e2,
+        type: 3}
+      propertyPath: ballSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 3f7660824638b1948acb2ea82377b2c0, type: 3}
+    - target: {fileID: 7722355212616443671, guid: bd09310c008906b48bd0983f6c7f44e2,
+        type: 3}
+      propertyPath: ballSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: bc4ace440a080ad4692df7e4feaa6438, type: 3}
+    - target: {fileID: 7722355212616443671, guid: bd09310c008906b48bd0983f6c7f44e2,
+        type: 3}
+      propertyPath: ballSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: cd7c7f5d247efd14e8037c491b85834b, type: 3}
+    - target: {fileID: 7722355212616443671, guid: bd09310c008906b48bd0983f6c7f44e2,
+        type: 3}
+      propertyPath: ballSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 5e89c74ec350f324f818f242becd3b5e, type: 3}
+    - target: {fileID: 7722355212616443671, guid: bd09310c008906b48bd0983f6c7f44e2,
+        type: 3}
+      propertyPath: ballSounds.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 15c6c77291b131248b1f17f02814e01e, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd09310c008906b48bd0983f6c7f44e2, type: 3}
