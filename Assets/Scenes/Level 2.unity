@@ -848,6 +848,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 328062127}
+  - component: {fileID: 328062128}
   m_Layer: 0
   m_Name: Blocks
   m_TagString: Untagged
@@ -872,6 +873,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &328062128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328062126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0ac98e7f8f5d1f4b858038ae39584a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  breakSound: {fileID: 8300000, guid: 3f7660824638b1948acb2ea82377b2c0, type: 3}
 --- !u!1001 &348475562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -939,6 +953,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8816398588494623459, guid: 0599ea599ccc53447afb91469651df58,
+        type: 3}
+      propertyPath: breakSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 3f7660824638b1948acb2ea82377b2c0, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0599ea599ccc53447afb91469651df58, type: 3}
 --- !u!4 &348475563 stripped
@@ -2651,11 +2670,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8816398588494623459, guid: 0599ea599ccc53447afb91469651df58,
-        type: 3}
-      propertyPath: breakSound
-      value: 
-      objectReference: {fileID: 8300000, guid: 3f7660824638b1948acb2ea82377b2c0, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0599ea599ccc53447afb91469651df58, type: 3}
 --- !u!4 &1137839997 stripped
