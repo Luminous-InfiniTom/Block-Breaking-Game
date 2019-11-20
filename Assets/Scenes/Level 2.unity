@@ -767,6 +767,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   breakSound: {fileID: 8300000, guid: 3f7660824638b1948acb2ea82377b2c0, type: 3}
+  blockSparklesVFX: {fileID: 0}
 --- !u!1001 &348475562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2889,17 +2890,17 @@ PrefabInstance:
     - target: {fileID: 113203864953131205, guid: 3c189e0b7f4b7db48980356e75de1771,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8
+      value: 8.08
       objectReference: {fileID: 0}
     - target: {fileID: 113203864953131205, guid: 3c189e0b7f4b7db48980356e75de1771,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6
+      value: 6.05
       objectReference: {fileID: 0}
     - target: {fileID: 113203864953131205, guid: 3c189e0b7f4b7db48980356e75de1771,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 113203864953131205, guid: 3c189e0b7f4b7db48980356e75de1771,
         type: 3}
